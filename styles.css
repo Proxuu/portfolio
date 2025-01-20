@@ -61,7 +61,9 @@ header {
 .nav-links a:hover {
     color: #f1c40f;
 }
-
+.logo{
+    font-weight: 400;
+}
 .section {
     padding: 50px 20px;
     text-align: center;
