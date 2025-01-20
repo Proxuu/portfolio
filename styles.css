@@ -63,6 +63,7 @@ header {
 }
 .logo{
     font-weight: 400;
+    font-family: arial;
 }
 .section {
     padding: 50px 20px;
