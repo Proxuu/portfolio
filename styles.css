@@ -135,6 +135,7 @@ header {
     align-items: center;
     text-align: left;
     margin-bottom: 100px;
+
 }
 .section-title, .home-element{
     line-height: 1.2;
@@ -144,16 +145,35 @@ header {
     margin: 20px;
     font-size: 2.5em;
     color: #3498db;
+    font-weight: 700;
+    
+}
+#home-element-p{
+    text-wrap: nowrap;
 }
 
 #profile-picture{
     border-radius: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s;
+    max-width: 220px;
 }
 #profile-picture:hover{
     transform: scale(1.05);
 }
+
+@media (max-width: 800px){
+    .home-element{
+        font-size: 5vw;
+
+    }
+    
+    #profile-picture{
+        width: 30vw;
+    }
+}
+
+
 #title-description{
     
     font-size: 16px;
@@ -226,8 +246,8 @@ header {
     border-radius: 25px;
     float: left;
     overflow-y: scroll;
-    min-height: 400px;
-    height: 300px;
+    
+    
     max-width: 300px;
     transition: transform 0.3s;
 }
@@ -241,6 +261,23 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
+}
+
+@media (max-width: 800px){
+    #about-descandimg{
+        display: grid;
+        height: auto;
+    }
+    #about-picture{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about-desc{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 1000px) {
